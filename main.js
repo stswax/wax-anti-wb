@@ -2,7 +2,7 @@
 const {Client} = require('discord.js'),
     client = new Client;
 
-client.login('Nzk4NjAwMzExMjQxNTcyNDUy.X_3Yfw.Rh78DV6wMblAG_nLibtDusIC6sE');
+client.login('TOKEN');
 
 client.on('ready', async () => {
     console.log(`${client.user.tag} connected`)
